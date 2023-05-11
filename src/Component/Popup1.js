@@ -33,7 +33,7 @@ function Popup1 (props) {
 
 const { fullname, phone, email, subject, msg } = data; {
 const res = fetch(
-  "https://idealschoolofskill1-default-rtdb.firebaseio.com/userdata.json",
+  "https://ideal-school-data-default-rtdb.firebaseio.com/userDataRecords1.json",
   {
     method: "POST",
     headers: {
