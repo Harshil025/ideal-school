@@ -36,7 +36,7 @@ const Contact = () => {
  
  const { fullname, phone, email, subject, msg } = data; {
    const res = fetch(
-     "https://ideal-school-data-default-rtdb.firebaseio.com/userDataRecords1.json",
+     "https://ideal-school-data-default-rtdb.firebaseio.com/userDataRecords.json",
      {
        method: "POST",
        headers: {
